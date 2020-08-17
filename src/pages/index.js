@@ -8,32 +8,33 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Action</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Time Thief* is a game that gives you unlimited action in Arcade mode,
+        without the constraints of a story.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Adventure</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        You like an adventure? Well, the story of the Time Thief
+        will take you on an adventure. Through Time. Coming back alive though, is in your hands.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>History</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        History is a place with many treasures. And many dangers.
+        There a number of priceless treasures, but they are not left unguarded.
+        Steal history's most valuable artifacts from the mightiest Rulers and Conquerors.
       </>
     ),
   },
@@ -59,8 +60,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Documentaion of Time Thief, the game.">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -72,7 +73,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/doc1')}>
-              Get Started
+              See Documentaion
             </Link>
           </div>
         </div>
