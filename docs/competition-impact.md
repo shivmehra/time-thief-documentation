@@ -140,7 +140,7 @@ The selected competition is analyzed in both these ways to get a better understa
 
 9. *Skull Girls*
 
-    
+    -
 
 10. *Guacamelee*
 

@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Time Thief Documentation',
   tagline: 'Running across Centuries',
-  url: 'https://timethief.com',
+  url: 'https://time-thief-documentation.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'devparanjay', // Usually your GitHub org/user name.
@@ -15,14 +15,14 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/introduction',
+          to: 'docs/game-introduction',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        {
-          to: 'blog', label: 'Blog', position: 'left'
-        },
+        // {
+        //   to: 'blog', label: 'Blog', position: 'left'
+        // },
         {
           href: 'https://github.com/devparanjay/time-thief-documentation',
           label: 'GitHub',
@@ -38,12 +38,16 @@ module.exports = {
           items: [
             {
               label: 'Introduction',
-              to: 'docs/introduction',
+              to: 'docs/game-introduction',
             },
             {
-              label: 'Literature Review',
-              to: 'docs/literature-review',
+              label: 'Project Guides',
+              to: 'docs/project-details',
             },
+            {
+              label: 'Competition Analysis',
+              to: 'docs/probable-competition',
+            }
           ],
         },
         {
@@ -73,7 +77,12 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} @devparanjay. Built with Docusaurus.`,
+      copyright: [
+        {
+          label: `Copyright © ${new Date().getFullYear()} devparanjay.`,
+          href: 'https://github.com/devparanjay/',
+        }
+      ]
     },
   },
   presets: [
@@ -84,13 +93,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/devparanjay/time-thief-documentation',
+            'https://github.com/devparanjay/time-thief-documentation/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/devparanjay/time-thief-documentation',
+            'https://github.com/devparanjay/time-thief-documentation/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
