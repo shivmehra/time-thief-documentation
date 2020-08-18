@@ -44,13 +44,13 @@ While the competiton for a new 2D game is vast, some of the games that the team 
     - Genre:
     - Short Description:
 
-7. *Brawlhala*
+7. *Brawlhalla*
 
     - Platform:
     - Genre:
     - Short Description:
 
-8. *Dragon ball Z*
+8. *Dragon Ball Z*
 
     - Platform: 
     - Genre:
