@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Time Thief Documentation',
   tagline: 'Running across Centuries',
-  url: 'https://time-thief-documentation.vercel.app/',
+  url: 'https://time-thief.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'devparanjay', // Usually your GitHub org/user name.
@@ -11,7 +11,7 @@ module.exports = {
       title: 'Time Thief Documentation',
       logo: {
         alt: 'Time Thief Logo',
-        src: 'img/logo.svg',
+        src: 'img/tt_logo.gif',
       },
       links: [
         {
@@ -77,12 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: [
-        {
-          label: `Copyright © ${new Date().getFullYear()} devparanjay.`,
-          href: 'https://github.com/devparanjay/',
-        }
-      ]
+      copyright: `Copyright © ${new Date().getFullYear()} Paranjay Bind.`,
     },
   },
   presets: [
@@ -93,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/devparanjay/time-thief-documentation/docs/',
+            'https://github.com/devparanjay/time-thief-documentation/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/devparanjay/time-thief-documentation/blog/',
+            'https://github.com/devparanjay/time-thief-documentation/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
