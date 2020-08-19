@@ -184,4 +184,4 @@ The selected competition is analyzed in both these ways to get a better understa
     3. In-app purchases can lead to kids losing value of money.
 
 
-**Kindly note that as the game develops and the tarket market shifts, the competition may change, and therefor may reflect in this documentation too.**
+**Kindly note that as the game develops and the target market shifts, the competition may change, and therefore may reflect in this documentation too.**

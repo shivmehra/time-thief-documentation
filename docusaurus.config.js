@@ -20,6 +20,11 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: '/',
+          label: 'Home',
+          position: 'left',
+        },
         // {
         //   to: 'blog', label: 'Blog', position: 'left'
         // },

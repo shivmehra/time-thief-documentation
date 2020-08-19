@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Action</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/action.svg',
     description: (
       <>
         Time Thief* is a game that gives you unlimited action in Arcade mode,
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Adventure</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/adventure.svg',
     description: (
       <>
         You like an adventure? Well, the story of the Time Thief
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>History</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/history.svg',
     description: (
       <>
         History is a place with many treasures. And many dangers.
@@ -64,8 +64,12 @@ function Home() {
       description="Documentaion of Time Thief, the game.">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
+          {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+          {/* adding the logo here */}
+          {
+            <img src = {useBaseUrl('img/tt_logo.gif')} alt = "Time Thief, the Documentation" height="500" width = "500" align = "center"></img>
+          }
           <div className={styles.buttons}>
             <Link
               className={classnames(
