@@ -68,7 +68,7 @@ function Home() {
           {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
           {/* adding the logo here */}
           {
-            <img src = {useBaseUrl('img/tt_logo.gif')} alt = "Time Thief, the Documentation" height="500" width = "500" align = "center"></img>
+            <img src = {useBaseUrl('img/tt_logo_red.gif')} alt = "Time Thief, the Documentation" height="400" width = "400" align = "center"></img>
           }
           <div className={styles.buttons}>
             <Link

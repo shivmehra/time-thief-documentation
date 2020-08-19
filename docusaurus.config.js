@@ -11,7 +11,7 @@ module.exports = {
       title: 'Time Thief Documentation',
       logo: {
         alt: 'Time Thief Logo',
-        src: 'img/tt_logo.gif',
+        src: 'img/tt_logo_gray.gif',
       },
       links: [
         {
