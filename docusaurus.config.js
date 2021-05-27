@@ -52,6 +52,10 @@ module.exports = {
             {
               label: 'Competition Analysis',
               to: 'docs/probable-competition',
+            },
+            {
+              label: 'Game Testing',
+              to: 'docs/alpha-testing',
             }
           ],
         },
