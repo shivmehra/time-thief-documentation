@@ -1,7 +1,7 @@
 ---
-id: testing
-title: Testing Phase
-sidebar_label: Game Testing
+id: alpha-testing
+title: Alpha Testing Phase
+sidebar_label: Alpha Testing
 ---
 
 ## Testing Phase of the Game
