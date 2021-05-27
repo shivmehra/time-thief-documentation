@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://time-thief.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'devparanjay', // Usually your GitHub org/user name.
-  projectName: 'time-thief-documentation', // Usually your repo name.
+  organizationName: 'devparanjay',
+  projectName: 'time-thief-documentation',
   themeConfig: {
     navbar: {
       title: 'Time Thief Documentation',
@@ -15,14 +15,19 @@ module.exports = {
       },
       links: [
         {
+          to: '/',
+          label: 'Home',
+          position: 'left',
+        },
+        {
           to: 'docs/game-introduction',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: '/',
-          label: 'Home',
+          to: 'https://time-thief.bss.design',
+          label: 'Register Now!',
           position: 'left',
         },
         // {

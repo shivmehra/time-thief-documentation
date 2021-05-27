@@ -7,9 +7,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'devparanjay',
-  // Usually your GitHub org/user name.
   projectName: 'time-thief-documentation',
-  // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Time Thief Documentation',
@@ -18,13 +16,17 @@ module.exports = {
         src: 'img/tt_logo_gray.gif'
       },
       links: [{
+        to: '/',
+        label: 'Home',
+        position: 'left'
+      }, {
         to: 'docs/game-introduction',
         activeBasePath: 'docs',
         label: 'Docs',
         position: 'left'
       }, {
-        to: '/',
-        label: 'Home',
+        to: 'https://time-thief.bss.design',
+        label: 'Register Now!',
         position: 'left'
       }, // {
       //   to: 'blog', label: 'Blog', position: 'left'
