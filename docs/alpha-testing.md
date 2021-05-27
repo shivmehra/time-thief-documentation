@@ -4,13 +4,9 @@ title: Alpha Testing Phase
 sidebar_label: Alpha Testing
 ---
 
-## Testing Phase of the Game
-
-<br>
+## Alpha Testing of the Game
 
 The game is in the Alpha testing phase at the current moment (26th May, 2021) and it is being tested accordingly. Some tests have already been done and they are documented as follows -
-
-<br>
 
 ### **Test Case #1**
 
@@ -21,11 +17,11 @@ The game is in the Alpha testing phase at the current moment (26th May, 2021) an
 - **Pre-conditions :**
   1. Game is running on the Windows 10 operating system.
   2. The machine running the game has at least GTX 1050Ti GPU.
-   
+  
 - **Assumptions :**
   1. The Game is being run inside the Unreal Game Engine.
   2. The tester is a developer of the game.
-   
+  
 - **Expected Test Result :** The game characcters displayed properly when the game is played.
 
 - **Test Results :**
@@ -46,6 +42,7 @@ The game is in the Alpha testing phase at the current moment (26th May, 2021) an
 - _**Test Status :** Success._
 
 ### **Test Case #2**
+
 - **Functionality :**  Player Damage and Heath
 
 - **Description :** Check whether the player character is damaging and gettig hurt by the enemy as it should.
@@ -73,10 +70,11 @@ The game is in the Alpha testing phase at the current moment (26th May, 2021) an
 - **Steps Taken :**
    1. Recoded the health code to fix some undiscovered bugs while looking for issues.
    2. Implemented the health code to the right characters correctly.
-   
+  
 - _**Test Status :** Success._
 
 ### **Test Case #3**
+
 - **Functionality :**  Player Damage and Heath
 
 - **Description :** Check whether the player character is damaging and gettig hurt by the enemy as it should.
@@ -104,10 +102,11 @@ The game is in the Alpha testing phase at the current moment (26th May, 2021) an
 - **Steps Taken :**
    1. Recoded the health code to fix some undiscovered bugs while looking for issues.
    2. Implemented the health code to the right characters correctly.
-   
+  
 - _**Test Status :** Success._
 
-### **Test Case #2**
+### **Test Case #4**
+
 - **Functionality :**  Player Damage and Heath
 
 - **Description :** Check whether the player character is damaging and gettig hurt by the enemy as it should.
@@ -135,10 +134,11 @@ The game is in the Alpha testing phase at the current moment (26th May, 2021) an
 - **Steps Taken :**
    1. Recoded the health code to fix some undiscovered bugs while looking for issues.
    2. Implemented the health code to the right characters correctly.
-   
+  
 - _**Test Status :** Success._
 
-### **Test Case #2**
+### **Test Case #5**
+
 - **Functionality :**  Player Damage and Heath
 
 - **Description :** Check whether the player character is damaging and gettig hurt by the enemy as it should.

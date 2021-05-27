@@ -86,7 +86,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Paranjay Bind.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Paranjay Bind, Shiv Mehra, Rishabh Dhanuka, Wadalka Rushikesh`,
     },
   },
   presets: [
@@ -95,13 +95,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/devparanjay/time-thief-documentation/docs',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/devparanjay/time-thief-documentation/blog',
         },
